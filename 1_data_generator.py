@@ -9,4 +9,4 @@ price = 50 * sqft + noise  # Price formula
 
 # Save to CSV
 data = pd.DataFrame({"sqft": sqft, "price": price})
-data.to_csv("data.csv", index=False)
+data.to_csv("data.csv", index=False) 
